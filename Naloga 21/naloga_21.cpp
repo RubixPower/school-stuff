@@ -10,7 +10,7 @@ bool deljivost(int x, int y) {
 void naloga_21() {
     int interval[40];
     // doloci vrednost vsakemu elementu
-    for (int i=10; i<=50; ++i) {
+    for (int i=10; i<50; ++i) {
         interval[i-10] = i;
     }
     // izpisi stevila ki so liha

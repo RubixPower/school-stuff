@@ -6,7 +6,7 @@ void naloga_13() {
     std::cin >> besedilo;
     std::cout << std::endl;
     // po vrstnem redu
-    for (int stevec=0; stevec <= besedilo.length(); ) {
+    for (int stevec=0; stevec < besedilo.length(); ) {
         std::cout << besedilo[stevec] << std::endl;
         stevec = stevec + 1;
     };

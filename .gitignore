@@ -1,6 +1,4 @@
 
 a.*
-*.out
-files.py
-Naloga 2*/naloga_2*
+*.out   
 *.kdev4

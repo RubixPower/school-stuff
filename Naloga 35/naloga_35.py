@@ -1,6 +1,7 @@
 def naloga_35():
-    stranice = int(input("vnesi dolzino stranice"))
-    kvadrat = [["*" for i in range(stranice)] for i in range(stranice)]
+    a = int(input("vnesi dolzino stranice a"))
+    b = int(input("vnesi dolzino stranice b"))
+    kvadrat = [["*" for i in range(a)] for i in range(b)]
     for vrsta in kvadrat:
         print(''.join(vrsta))
     return

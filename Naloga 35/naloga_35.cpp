@@ -1,13 +1,14 @@
 #include <iostream>
 
 void naloga_35 () {
-    int stranice, tmp;
-    std::cout << "vstavi dolzino stranic: ";
-    std::cin >> stranice;
-    tmp = stranice;
-    for (int loop1= stranice;loop1>0;--loop1) {
-        for (int loop2= stranice;loop2>0;--loop2) {std::cout<<"*";};
-        std::cout<<std::endl;
+    int a, b;
+    std::cout << "vstavi dolzino stranic a: ";
+    std::cin >> a;
+    std::cout << "vstavi dolzino stranic b: ";
+    std::cin >> b;
+    for (int tmp1 = b; tmp1 > 0; --tmp1) {
+        for (int tmp2 = a; tmp2 > 0; --tmp2) {std::cout << "*";};
+        std::cout << std::endl;
     };
 };
 
